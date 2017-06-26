@@ -34,9 +34,9 @@ https://github.com/pengjianbo/GalleryFinal
 ## 常用的UI小组件
 ### 选择器:
 https://github.com/Bigkoo/Android-PickerView 内置时间日期选择器,UI自定义配置很丰富<br/>
-https://github.com/gzu-liyujiang/AndroidPicker包括日期选择器、时间选择器、单项选择器、城市地址选择器、车牌号选择器、数字选择器、星座选择器、生肖选择器、颜色选择器、文件选择器、目录选择器等<br/>
-https://github.com/yangxu4536/MeiTuanLocateCity仿美团城市选择界面，可直接用在实际项目中<br/>
-https://github.com/Bigkoo/EasySideBar一款按字母排序库，已封装好城市数据，风格仿美团，可定制化强。<br/>
+https://github.com/gzu-liyujiang/AndroidPicker 包括日期选择器、时间选择器、单项选择器、城市地址选择器、车牌号选择器、数字选择器、星座选择器、生肖选择器、颜色选择器、文件选择器、目录选择器等 <br/>
+https://github.com/yangxu4536/MeiTuanLocateCity 仿美团城市选择界面，可直接用在实际项目中<br/>
+https://github.com/Bigkoo/EasySideBa r一款按字母排序库，已封装好城市数据，风格仿美团，可定制化强。<br/>
 
 ### 多条件筛选菜单
 https://github.com/dongjunkun/DropDownMenu 类似美团，爱奇艺电影票下拉菜单<br/>
@@ -88,9 +88,10 @@ https://github.com/Blankj/AndroidUtilCode
 ### RxPreferences
 通过 RxJava 的方式来访问 SharedPreferences
 ### Rxjava+retrofit
+### Rxjava2的事件总线：Rxbus 
 
 ## 键盘监听
-####防止自动弹出键盘:
+#### 防止自动弹出键盘:
 activity 标签里加android:windowSoftInputMode="stateHidden|stateAlwaysHidden"
 https://github.com/yshrsmz/KeyboardVisibilityEvent
 
@@ -100,4 +101,39 @@ https://github.com/hongyangAndroid/AndroidAutoLayout
 ## 动画
 https://github.com/florent37/ViewAnimator
 
-## 
+## 换皮肤主题
+https://github.com/hongyangAndroid/ChangeSkin<br/>
+https://github.com/Bilibili/MagicaSakura MagicaSakura B站实现的 Android 多主题框架
+
+## 文件和缓存相关
+https://github.com/vincentbrison/dualcache This android library provide a cache with 2 layers, one in RAM in top of one disk.
+https://github.com/baoyongzhang/Treasure Very easy to use wrapper library for Android SharePreferences
+
+## recycleview
+https://github.com/CymChad/BaseRecyclerViewAdapterHelper 优化Adapter代码 添加Item事件 添加列表加载动画 添加头部、尾部 自动加载 分组布局多布等<br/>
+https://github.com/wasabeef/recyclerview-animators 轻松创建RecyclerView动画<br/>
+https://github.com/cymcsg/UltimateRecyclerView 功能强大的Recyclerview<br/>
+https://github.com/drakeet/MultiType 快速清晰的开发复杂列表页面<br/>
+
+
+## 第三方分享和登录,统计
+### 使用友盟的sdk,然后再封装一层
+https://juejin.im/post/58c21aa944d9040068e71e2c
+
+## 第三方推送
+http://www.jianshu.com/p/d650d02a1c7a
+
+## 权限申请
+https://github.com/hss01248/FloatWindowPermission 6.0以下的悬浮窗权限申请,以及判断:
+https://github.com/tbruyelle/RxPermissions 6.0以上,运行时权限,还包括悬浮窗权限,以及读写sd卡权限
+
+## 十二大最著名的播放器
+http://code.replays.net/201705/86060.html
+
+## 性能优化
+http://www.jianshu.com/p/2bceb820b435 内存篇
+http://www.jianshu.com/p/906cd1af2ce7 UI
+https://github.com/facebook/stetho 强大的Android Debug工具
+https://github.com/square/leakcanary 常用的内存泄露检查工具
+
+
